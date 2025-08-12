@@ -8,8 +8,9 @@ An AI-powered assistant that answers questions about a YouTube video using **Ret
 - Persistent long-term memory in FAISS
 - Multi-retriever evaluation with Ragas
 - Context-aware interactive chat
-- `.env` configuration (no hardcoded keys)
+- `.env` configuration
 
-## 🛠 Requirements
+## Requirements
 ```bash
 pip install -U python-dotenv youtube-transcript-api langchain langchain-community langchain-openai faiss-cpu datasets ragas pandas
+
